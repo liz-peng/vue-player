@@ -1,1 +1,1 @@
-# vue-player
+# Video Browser
