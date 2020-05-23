@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<SearchBar @searchTermChange="onSearchTermChange"></SearchBar>
-		<VideoList></VideoList>
+		<VideoList :videos="videosList"></VideoList>
 	</div>
 </template>
 
@@ -19,6 +19,12 @@ export default {
 		VideoList
 	},
 
+	data() {
+		return {
+			videosList: []
+		};
+	},
+
 	methods: {
 		onSearchTermChange(newSearch) {
 			// axios returns a promise
@@ -30,7 +36,7 @@ export default {
 					q: newSearch // query
 				}
 			}).then(response => {
-				console.log(response);
+				this.videosList = response.data.items;
 			});
 		}
 	}
