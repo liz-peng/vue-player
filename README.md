@@ -1,6 +1,12 @@
 # Video Browser
+![alt text](https://github.com/liz-peng/vue-video-browser/blob/master/vue-video-browser/demo/vue-video-browser.gif "video browser") 
 
 ## Documentation
-API: Youtube Data API v3
+Vue.js
 
-Style: Bootstrap 4.5
+Youtube Data API v3
+
+Bootstrap 4.5
+
+## TODO
+1. Styling
