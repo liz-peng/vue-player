@@ -1,6 +1,12 @@
 # Video Browser
 ![alt text](https://github.com/liz-peng/vue-video-browser/blob/master/vue-video-browser/demo/vue-video-browser.gif "video browser") 
 
+## Run the app
+```
+cd vue-video-browser
+npm run serve
+```
+
 ## Documentation
 Vue.js
 
