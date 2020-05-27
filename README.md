@@ -1,5 +1,5 @@
 # Youtube Video Browser
-![alt text](https://github.com/liz-peng/vue-video-browser/blob/master/vue-video-browser/demo/vue-video-browser.gif "video browser") 
+![alt text](https://imgur.com/RGWrKMj.gif "video browser") 
 
 ## Run the app
 ```
